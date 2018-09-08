@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    height: 100%;
+}
+
+#main {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("https://images.unsplash.com/photo-1534790566855-4cb788d389ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29d5fd7ac0936122d9f8453830f358df&auto=format&fit=crop&w=1350&q=80") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#title {
+    text-align: center;
+    padding: 20px;
+    background: rgba(5, 199, 199, 0.7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4, ul {
+    color: whitesmoke;
+}
+
+li {
+    padding: 10px;
+}
+
+#devoured-burgers {
+    text-align: right;
+}
+
+
+#submit-form {
+    margin-top: 40px;
+
+}
+
+#burger-form {
+    width: 400px;
+}
